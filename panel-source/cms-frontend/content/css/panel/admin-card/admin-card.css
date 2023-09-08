@@ -1,0 +1,89 @@
+.admin-card {
+    flex: 1.2;
+    max-width: 381px;
+    max-height: 615px;
+    box-shadow: var(--shadow);
+    background: var(--white);
+}
+.admin-card-profile-container {
+    height: 180px;
+    background: url(../../../img/banner/banner.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+}
+.admin-profile-card {
+    width: 130px;
+    height: 130px;
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translate(-50%, 35px);
+}
+.admin-profile-card::before {
+    content: '';
+    position: absolute;
+    inset: 0;
+    width: 100%;
+    height: 100%;
+    background: var(--main-color);
+    opacity: 0.6;
+    transform: scale(1.13);
+    z-index: -1;
+}
+.admin-profile-card img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.admin-information-container {
+    text-align: center;
+    padding: 30px 50px;
+}
+.admin-information-container .admin-id {
+    font-size: 1.3rem;
+    margin-top: 40px;
+    margin-bottom: 10px;
+}
+.admin-information-tables {
+    width: 100%;
+    margin-top: 30px;
+}
+.admin-info-box {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-top: 1px solid var(--white-700);
+    padding: 10px;
+}
+.admin-info-box span {
+    display: flex;
+    align-items: center;
+}
+.admin-info-box span:first-child {
+    color: var(--primary-color);
+}
+.admin-info-box span svg {
+    margin-right: 15px;
+}
+.change-info-btn-box { 
+    padding: 0 50px;
+}
+.change-info-btn {
+    width: 100%;
+    height: 50px;
+    background: var(--blue);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: none;
+    outline: none;
+    color: var(--white);
+    margin-top: 20px;
+    box-shadow: rgb(0, 156, 240, 0.4) 0px 8px 24px;
+    cursor: pointer;
+}
+.change-info-btn svg {
+    margin-right: 15px;
+}

@@ -1,0 +1,126 @@
+default route: localhost:3000/api/
+
+<!-- ! ---------------------------- Start Users Apis ----------------------------- ! -->
+
+// Get All Users
+    Api: /users/
+    method: GET
+
+
+// Crete User
+    Api: /users/
+    method: POST
+    body: {
+        firstName: '',
+        lastName: '',
+        userName: '',
+        profile: '',
+    }
+
+
+// Get Main User
+    Api: /users/:id
+    method: GET
+
+
+// Delete User
+    Api: /users/:id
+    method: DELETE
+    
+
+// Edit User
+    Api: /users/:id
+    method: PUT
+    body: {
+        firstName: '',
+        lastName: '',
+        userName: '',
+        profile: '',
+    }
+
+
+<!-- ! ---------------------------- Finish Users Apis ----------------------------- ! -->
+
+
+<!-- ! ---------------------------- Start Admins Apis ----------------------------- ! -->
+
+
+// Get All Admins
+    Api: /admins
+    method: GET
+
+
+// Get Main Admin
+    Api: /admins/:id
+    method: GET
+
+
+// Edit Admin
+    Api: /admins/:id
+    method: PUT
+    body: {
+        firstName: req.body.firstName,
+        lastName: req.body.lastName,
+        userName: req.body.userName,
+        password: req.body.password,
+        email: req.body.email,
+    }
+
+
+<!-- ! ---------------------------- Finish Admins Apis ----------------------------- ! -->
+
+<!-- ! ---------------------------- Start Courses Apis ----------------------------- ! -->
+
+
+// Get All Courses
+    Api: /courses
+    method: GET
+
+
+// Create Course
+    Api: /courses
+    method: POST
+    body: {
+    	title: '', `
+        body: '',
+        time: '',
+        price: '',`
+        students: '',`
+        category: '',`
+        cover: '',`
+    }
+
+
+// Remove Course
+    Api: /courses/:id
+    method: DELETE
+
+
+<!-- ! ---------------------------- Finish CoursesApis ----------------------------- ! -->
+
+
+
+<!-- ! ---------------------------- Start Sessions Apis ----------------------------- ! -->
+
+
+// Get All Sessions
+    Api: /sessions
+    method: GET
+
+
+// Create Session
+    Api: /sessions
+    method: POST
+    body: {
+	title: '',
+        time: '',
+        isFree: '',
+        course: '',
+    }
+
+
+// Delete Sessions
+    Api: /sessions/:id
+    method: DELETE
+
+<!-- ! ---------------------------- Finish Sessions Apis ----------------------------- ! -->
