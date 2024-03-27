@@ -59,4 +59,3 @@ this page is for add new session to a course.you should complete the fields to a
 
 
 ### Create With ❤️ By MR.LEGEND (Sobhan Musazadeh)
-d
