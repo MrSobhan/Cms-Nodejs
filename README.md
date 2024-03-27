@@ -1,6 +1,6 @@
-# simple panel admin template without any logic
-📍 This repo is for students of sabzlearn 20 javascript projects. I made it for you guys as a final project to do. this panel admin is raw and it doesn't have any javascript logic. Because it's your responsibility to add it 😉🤝😄 if you have any question you can ask on the Q/A panel 🤓
-<br> Let's see the panel admin 🏃‍♂️
+# simple panel admin template Cms With Node
+📍 This repository is for students, this repository is for js lovers and this project is made with the help of the amazing NodeJS technology. This admin panel is complete and has complete javascript logic. You can easily use it.
+Let's see the admin panel ♂️ 🏃
 # Login page
 ![Screenshot 2022-04-21 011214](https://user-images.githubusercontent.com/89915857/164319276-6399e8e5-7a0f-453b-84a9-aec145199423.png)
 - Features of Login page:
